@@ -1,0 +1,13 @@
+Algorithme Nombre
+Variable
+    n : entier;
+Debut
+n = 0 ;
+Ecrire("Saisir un nombre entre 1 et 3");
+Tant que ( n < 1 ou n > 3);
+    Lire(n);
+    Si (n < 1 ou n > 3) alors
+        Ecrire("Mauvaise saisie,veuilez ressaisir à nouveau);
+    Finsi
+Fintant que
+Fin 

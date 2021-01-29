@@ -1,0 +1,17 @@
+Algorithme Message
+Variable
+    n : entier;
+Debut
+n = 0 ;
+Ecrire("Saisir un nombre entre 10 et 20");
+Tant que ( n < 10 ou n > 20);
+    Lire(n);
+    Si (n < 10 ) alors
+        Ecrire("Plus Grand");
+        Sinon
+        Si ( n > 20) alors 
+        Ecrire("Plus Petit");
+        Finsi
+    Finsi
+Fintant que
+Fin 

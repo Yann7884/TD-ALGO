@@ -1,0 +1,30 @@
+Algorithme Achat 
+Variables 
+euros, somme_due, m, reste, Nb10euros, Nb5euros : Entier
+Debut
+euros = 1 ;
+somme_due = 0 ; 
+Tant que (euros <> 0)
+  Ecrire ("Saisir le prix en euros : ");
+  Lire (euros);
+  somdue =  somme_due + euros
+Fin Tant que
+Ecrire ("Vous devez :", somme_due, " euros") ;
+Ecrire ("Montant versé :") ;
+Lire (m);
+reste  =  m  - somme_due
+Nb10euros =  0
+Tant que (Reste >= 10 ) ;
+  Nb10euros =  Nb10euros + 1
+  reste =  reste – 10
+Fin Tant que
+Nb5euros = 0
+Si (reste >= 5 );
+  Nb5euros  =  1
+  reste = reste – 5
+FinSi
+Ecrire ("Rendu de la monnaie :" somme_due );
+Ecrire ("Billets de 10 euros : ", Nb10euros ) ;
+Ecrire ("Billets de  5 euros : ", Nb5euros ) ;
+Ecrire ("Pièces de 1 euros : ", reste ) ;
+Fin

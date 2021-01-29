@@ -1,0 +1,13 @@
+Algorithme Factorielle
+Variable
+    n,i,Factorielle : entier;
+Debut
+
+Ecrire("Saisir un nombre");
+Lire(n);
+Factorielle = 1 ;
+Pour  ( i allant de 2 à n );
+        Factorielle = Factorielle * i ; 
+        Ecrire("La Factorielle est:",Factorielle);
+Fin Pour
+Fin 

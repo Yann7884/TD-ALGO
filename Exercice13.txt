@@ -1,0 +1,13 @@
+Algorithme Somme
+Variable
+    n,i, somme : entier;
+Debut
+
+Ecrire("Saisir un nombre");
+Lire(n);
+somme = 0 ;
+Pour  ( i allant de 1 à n );
+        somme = somme * i ; 
+        Ecrire("La somme est:", somme);
+Fin Pour
+Fin 

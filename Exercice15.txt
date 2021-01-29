@@ -1,0 +1,16 @@
+Algorithme Grand
+Variable
+    n,i,Grand,P_Grand : entier;
+Debut
+Grand = 0 ;
+Pour  ( i allant de 1 à 20);
+ Ecrire("Saisir un nombre");
+ Lire(n); 
+ Si ( i = 1 ou n > Grand) alors 
+ Grand = n ;
+ P_Grand = i ;
+ Finsi
+Fin Pour
+Ecrire(" Le Plus Grand etait:",Grand);
+Ecrire("il à été saisie en position",P_Grand );
+Fin 

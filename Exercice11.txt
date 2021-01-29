@@ -1,0 +1,14 @@
+Algorithme Demande
+Variable
+    n,i : entier;
+Debut
+n = 0 ;
+Ecrire("Saisir un nombre ");
+Lire(n);
+Tant que ( n < 10);
+    i = i +1 ;
+    n = n * i ;
+      Ecrire("Les dix nombres sont:");
+    
+Fintant que
+Fin 
