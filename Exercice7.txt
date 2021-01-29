@@ -1,0 +1,43 @@
+Algorithme Compagnie 
+Variables
+C1,C2,C3 : Booléen ;
+situ : Caractère ;
+p , acc , age, assur  : entier; 
+P = 0 ;
+Ecrire ("Saisir l'age ) ;
+Lire ( age) ;
+Ecrire (" Saisir le Nombre d'année de permis") ;
+Lire (p) ;
+Ecrire(" Saisir le Nombre d'accident ") ;
+Lire (acc ) ;
+Ecrire(" Saisir le Nombre d'année d'assurance) ;
+lire(assur)  ;
+C1 =  age >= 25 ;
+C2 =  p >= 2 ;
+C3 =  assur > 5 ;
+Si (Non(C1) ) Alors
+  P = P + 1 ;
+FinSi
+Si (Non(C2) ) Alors
+  P ← P + 1 ;
+FinSi
+P = P + acc
+Si (P < 3 et C3 )  Alors
+  P = P - 1 ;
+FinSi
+Si (P = -1 )  Alors
+  situ =  "Bleu" ;
+Sinon
+    Si (P = 0  ) Alors
+    situ =  "Vert" ;
+Sinon
+    Si P = 1 Alors
+    situ =  "Orange" ;
+Sinon
+    Si P = 2 Alors
+     situ =  "Rouge" ;
+Sinon
+  situ =  "Refusé" ;
+FinSi
+Ecrire ("Votre situation : ", situ ) ;
+Fin

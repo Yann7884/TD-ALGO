@@ -1,0 +1,86 @@
+Algorithme Calendrier
+Variables 
+J, M, A, JMax : entiers ;
+ VJ, VM, B :  Booleen ;
+Début
+Ecrire ("Saisir le numéro du jour" ) :
+Lire (J ) ;
+Ecrire ("Saisir le numéro du mois" ) ;
+Lire (M ) ;
+Ecrire ("Entrez l'année" ) ;
+Lire (A) ;
+Si (VJ et VM )  alors
+  Ecrire ("La date est valide" ) ;
+Sinon
+  Ecrire ("La date n'est pas valide" ) ;
+  B = A dp 400 ou (non(A dp 100) et A dp 4) ;
+Jmax = 0
+ VM = M >= 1 et M =< 12
+Si (VM)  Alors
+  Si (M = 2 et B )  Alors
+    JMax = 29 ;
+  Sinon
+    Si (M = 2 )  Alors
+    JMax = 28 ;
+  Sinon
+    Si (M = 4 ou M = 6 ou M = 9 ou M = 11 )  Alors
+    JMax = 30 ;
+  Sinon
+    JMax =  31 ; 
+  FinSi
+  VJ = J >= 1 et J < =  Jmax ;
+FinSi
+FinSi
+Si M < 1 ou M > 12 Alors
+  Ecrire "Date Invalide"
+SinonSi M = 2 Alors
+  Si A dp 400 Alors
+    Si J < 1 ou J > 29 Alors
+      Ecrire "Date Invalide"
+    Sinon
+      Ecrire "Date Valide"
+    FinSi
+  SinonSi A dp 100 Alors
+    Si J < 1 ou J > 28 Alors
+      Ecrire "Date Invalide"
+    Sinon
+      Ecrire "Date Valide"
+    FinSi
+  SinonSi A dp 4 Alors
+    Si J < 1 ou J > 29Alors
+      Ecrire "Date Invalide"
+    Sinon
+      Ecrire "Date Valide"
+    FinSi
+  Sinon
+    Si J < 1 ou J > 28 Alors
+      Ecrire "Date Invalide"
+    Sinon
+      Ecrire "Date Valide"
+    FinSi
+  FinSi
+Sinon
+    Si (M = 4 ou M = 6 ou M = 9 ou M = 11 )  Alors
+  Si (J < 1 ou J > 30 )  Alors
+    Ecrire ("Date Invalide" ) ;
+  Sinon
+    Ecrire ("Date Valide" ) ;
+  FinSi
+Sinon
+  Si (J < 1 ou J > 31 )  Alors
+    Ecrire ("Date Invalide" ) ;
+  Sinon
+    Ecrire ("Date Valide" ) ;
+  FinSi
+FinSi
+B = (A dp 4 et Non(A dp 100)) ou A dp 400 ;
+K1 = (m = 1 ou m = 3 ou m = 5 ou m = 7 ou m = 8 ou m = 10 ou m = 12) et (J >= 1 et J< =31) ;
+K2 = (m=4 ou m=6 ou m=9 ou m=11) et (J >= 1 et J< = 30) ;
+K3 = m = 2 et B et J >= 1 et J < =29
+K4 = m = 2 et J >= 1 et J < = 28
+Si (K1 ou K2 ou K3 ou K4 )  Alors
+  Ecrire ("Date valide" ) ;
+Sinon
+  Ecrire ("Date non valide" ) ;
+FinSi
+Fin
