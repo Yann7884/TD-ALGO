@@ -1,0 +1,7 @@
+Algorithme Notes
+Variable i , Notes [8] : entiers ;
+Pour i (allant de  0 à 8 ) 
+  Ecrire ("Saisir la note numéro ", i + 1 );
+  Lire (Notes(i) ) ;
+Fin Pour 
+Fin 

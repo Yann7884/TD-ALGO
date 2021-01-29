@@ -1,0 +1,9 @@
+Algorithme Simplification
+Variable 
+i ; Nb[5] : entiers ;
+Début
+Pour (i allant de  0 à 5 ) 
+  Nb[i] = i * i ;
+  Ecrire (Nb(i) ) ;
+Fin Pour 
+Fin
