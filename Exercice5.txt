@@ -1,0 +1,17 @@
+Variable
+ sexe : Caractère
+ age : entier
+ C1, C2 : Booléen
+Début
+Ecrire ("Saisir le sexe (M/F) : " ) ;
+Lire (sexe ) ;
+Ecrire ("Saisir l’âge: " ) ;
+Lire (age ) 
+  C1 =(sexe  = "M")  et  (age > 20 ) ;
+  C2 = (sexe = "F")  et  (age > 18 ET age < 35) ;
+Si (C1 ou C2 )  Alors
+  Ecrire ("Imposable" ) ;
+Sinon
+  Ecrire ("Non Imposable" ) ;
+FinSi
+Fin

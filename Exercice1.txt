@@ -1,0 +1,6 @@
+Algorithme TUTU
+Si (Tutu <= Toto + 4 ET Tata <> "OK" ) Alors 
+  Tutu =  Tutu - 1
+Sinon
+  Tutu =  Tutu + 1
+Finsi 

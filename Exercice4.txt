@@ -1,20 +1,16 @@
-variables
-// Nombre de photocopies
-entier nbPhotocopies
-début
-Ecrire ("Nombre de photocopies : ");
-Lire (nbPhotocopies);
-Ecrire ("Prix total : " )
-si (nbPhotocopies < 10 ) alors
-// Moins de 10 photocopies
-Ecrire (0.10 × nbPhotocopies )
-sinon
-si (nbPhotocopies ≤ 100 ) alors
-// Au moins 10 photocopies, et au plus 100 photocopies
-Ecrire (0.08 × nbPhotocopies ) ;
-sinon
-// Plus de 100 photocopies
-afficher (0.09 × nbPhotocopies ) :
-Finsi
+Algorithme photocopies 
+Variables 
+n, p :  entier ;
+Début
+Ecrire (" Saisir le Nombre de photocopies : " ) ;
+Lire (n ) ;
+Si (n <= 10 )  Alors
+  p =  n * 0,1 ;
+Sinon
+    Si (n <= 30 ) Alors
+  p =  10 * 0,1 + (n – 10) * 0,09 ; 
+Sinon
+  p =  10 * 0,1 + 20 * 0,09 + (n – 30) * 0,08 ; 
 FinSi
-fin
+Ecrire ( "Le prix total est: ", p ) ;
+Fin
