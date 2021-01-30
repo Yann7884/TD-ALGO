@@ -1,0 +1,22 @@
+Algorithme Signe 
+Variables 
+n, n_positif, n_negatif : entier
+Tableau T[] : entier
+Debut
+Ecrire ("Saisir le nombre de valeurs :" ) ;
+Lire (n ) ;
+Redim =  T[n-1] ;
+n_positif =  0 ;
+n_negatif =  0 ;
+Pour (i allant de  0 à n - 1 )
+  Ecrire ("Saisir le nombre n° ", i + 1 ) ;
+  Lire T[i] ;
+  Si (T[i] > ) 0 alors
+    n_positif =  n_positif + 1 ;
+  Sinon
+    n_negatif ← n_negatif + 1
+  Finsi
+Fin Pour
+Ecrire ("Nombre de valeurs positives : ", n_positif ) ;
+Ecrire ("Nombre de valeurs négatives : ", n_negatif ) ;
+Fin

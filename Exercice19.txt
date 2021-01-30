@@ -1,9 +1,9 @@
- Tableau[5] : Caractère
+ Tableau T[5] : Caractère
 Debut
-Tableau[0] = "a" ;
-Tableau[1] = "e" ;
-Tableau[2] =  "i" ;
-Tableau[3] = "o" ;
-Tableau[4] =  "u" ;
-Tableau[5] =  "y" ;
+T[0] = "a" ;
+T[1] = "e" ;
+T[2] =  "i" ;
+T[3] = "o" ;
+T[4] =  "u" ;
+T[5] =  "y" ;
 Fin

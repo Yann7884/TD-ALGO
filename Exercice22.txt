@@ -1,0 +1,10 @@
+Algorithme Modification
+Variables i, k,tableau N[6] : entiers;
+Début
+N[0] = 1 ;
+Ecrire N[0] ;
+Pour (k allant de  1 à 6 ) 
+  N[k] = N[k-1] + 2 ;
+  Ecrire N[k] ;
+Fin Pour
+Fin

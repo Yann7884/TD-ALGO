@@ -1,0 +1,11 @@
+Variables 
+i, Som, N :  entier ;
+Tableau T[] : entier ;
+Debut
+Redim = T[N-1] ;
+Som = 0 ;
+Pour (i allant de  0 à N - 1 ) 
+  Som =  Som + T[i] ;
+Fin Pour
+Ecrire ("Somme des éléments du tableau : ", Som ) ;
+Fin

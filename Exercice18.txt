@@ -1,9 +1,9 @@
 Algorithme Tableau 
 Variable 
 i : entier ;
-Tableau[6] : entier
+Tableau Tab[6] : entier
 Debut
 Pour i (allant  0 à 6 )
-  Tableau[i] =  0 ;
+  Tab[i] =  0 ;
 Fin Pour
 Fin

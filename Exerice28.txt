@@ -1,0 +1,19 @@
+Variables 
+Nb, Posmaxi : entier ;
+Tableau T() : entier ;
+Ecrire ("Saisir le nombre de valeurs :" ) ;
+Lire (Nb ) ;
+Redim = T[Nb - 1] ;
+Pour (i allant de  0 à Nb - 1 ) 
+  Ecrire ("Saisir le nombre n° ", i + 1 ) ;
+  Lire T[i] ;
+Fin Pour
+Posmaxi = 0 ;
+Pour (i allant de  0 à Nb - 1 ) ;
+  Si (T[i] > T[Posmaxi] ) alors
+    Posmaxi =  i
+  Finsi
+Fin Pour
+Ecrire ("Element le plus grand : ", T[Posmaxi] ) ;
+Ecrire ("Position de cet élément : ", Posmaxi ) :
+Fin

@@ -1,0 +1,12 @@
+Variable 
+S; Tableau Notes[8] : entiers ;
+
+Debut
+s =  0 ; 
+Pour (i allant de  0 à 8)
+  Ecrire ("Entrez la note n° ", i + 1 ) ;
+  Lire (Notes[i]) ;
+  s =  s + Notes[i] ;
+Fin Pour
+Ecrire ("Moyenne :", s/9 ) ;
+Fin
