@@ -1,0 +1,34 @@
+Algorithme Tri_Insertion 
+Variables Tableau T[N] , i , j , Posmaxi  : entier ;
+Début
+Pour (i allant de  0 à N - 2 ) 
+  posmaxi = i
+  Pour (j = i + 1 à N - 1 ) 
+    Si (T[j] > T[posmaxi]) alors
+      posmaxi = j ;
+    Finsi
+  Fin Pour ;
+  temp =  T[posmaxi] ;
+  T[posmaxi] =  T[i]  ;
+  t[i] =  temp ; 
+Fin Pour
+Fin
+
+Algorithme Tri_Bulle
+Variables
+Yapermut : Booléen ;
+tableau Tab[] , i : entiers ;
+Début
+Yapermut =  Vrai ;
+Tant que (Yapermut) 
+  Yapermut =  Faux ;
+  Pour (i allant de  0 à N - 2 ) 
+    Si (Tab[i] < Tab[i+1]) Alors
+      temp =  Tab[i]
+      Tab[i] = Tab[i+1] ;
+      Tab[i+1] = temp ;
+      Yapermut =  Vrai ;
+    Finsi
+  Fin Pour
+Fin Tant que 
+Fin

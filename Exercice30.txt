@@ -1,0 +1,12 @@
+Algorithme Inverse 
+Variables
+N , i, Tableau T[] : entiers ;
+Début
+Ecrire("Saisir le Nombre");
+Lire (N) ;
+Pour (i allant de  0 à (N-1)/2 ) 
+  Temp =  T[i] ;
+  T[i] = T[N-1-i] ;
+  T[N-1-i] = Temp ;;
+Fin Pour
+Fin
