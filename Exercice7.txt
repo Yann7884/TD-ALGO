@@ -4,17 +4,17 @@ C1,C2,C3 : Booléen ;
 situ : Caractère ;
 p , acc , age, assur  : entier; 
 P = 0 ;
-Ecrire ("Saisir l'age ) ;
+Ecrire ("Saisir l'age ") ;
 Lire ( age) ;
 Ecrire (" Saisir le Nombre d'année de permis") ;
 Lire (p) ;
 Ecrire(" Saisir le Nombre d'accident ") ;
 Lire (acc ) ;
-Ecrire(" Saisir le Nombre d'année d'assurance) ;
+Ecrire(" Saisir le Nombre d'année d'assurance") ;
 lire(assur)  ;
-C1 =  age >= 25 ;
-C2 =  p >= 2 ;
-C3 =  assur > 5 ;
+C1 =  age > = 25 ;
+C2 =  p > = 2 ;
+C3 =  assur > 1 ;
 Si (Non(C1) ) Alors
   P = P + 1 ;
 FinSi
@@ -22,7 +22,7 @@ Si (Non(C2) ) Alors
   P ← P + 1 ;
 FinSi
 P = P + acc
-Si (P < 3 et C3 )  Alors
+Si (P < 3 et C3 )  Alors 
   P = P - 1 ;
 FinSi
 Si (P = -1 )  Alors
